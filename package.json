@@ -1,0 +1,11 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Webserver practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "me",
+  "license": "MIT"
+}
