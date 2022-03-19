@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet">
+  <title>Greetings</title>
+</head>
+<body>
+  <h1>Hello!</h1>
+  <form method="POST" action="/greet">
+    <label for="person">Name:</label>
+    <input name="person">
+    <label for="age">Age:</label>
+    <input name="age">
+    <button>Submit</button>
+  </form>
+  <h2>Select a picture to display!</h2>
+  <form method="POST" action="/picselect">
+    <input type="radio" id="kea" name="picture" value="kea.txt" checked>
+    <label for="kea">Kea</label>
+    <input type="radio" id="kiwi" name="picture" value="kiwi.txt">
+    <label for="kiwi">Kiwi Bird</label>
+    <input type="radio" id="manaia" name="picture" value="manaia.txt">
+    <label for="manaia">Manaia</label>
+    <input type="radio" id="nikau" name="picture" value="nikau.txt">
+    <label for="nikau">Nikau</label>
+    <input type="radio" id="pohutukawa" name="picture" value="pohutukawa.txt">
+    <label for="pohutukawa">Pohutukawa</label>
+    <button>Mak'a'Choice</button>
+  </form>
+</body>
+</html>
